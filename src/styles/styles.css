@@ -1,0 +1,227 @@
+.display-plans-modal {
+    width: 90vw;    /* Occupy the 90% of the screen width */
+    max-width: 90vw;
+}
+
+:root {
+    --primary-color: #decd80;
+    --secondary-color: #202020;
+}
+
+.modal-primary-color {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.modal-secondary-color {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* Font family */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px;
+}
+
+/* Main content */
+main {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 20px;
+}
+
+/* Links */
+a {
+    color: var(--primary-color);
+}
+
+/* Buttons */
+button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Forms */
+form {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="file"],
+input[type="number"],
+input[type="checkbox"],
+input[type="time"]
+{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.custom-div-styles{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+
+}
+
+.regular-button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-card-styles {
+    background-color: var(--primary-color);
+}
+
+.card-button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tabs{
+    background-color: var(--secondary-color);
+    border-color: var(--primary-color);
+}
+
+.navbar{
+background-color: var(--primary-color);
+    width: 1831px;
+    padding-left: 10px;
+    color: var(--secondary-color);
+}
+
+.nav-link {
+    color: var(--primary-color);
+}
+
+.navbar-link {
+    color: var(--secondary-color);
+}
+
+.textarea {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type='file']::file-selector-button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+
+.rbc-calendar, .rbc-btn-group> button{
+    --primary-color: unset;
+    --secondary-color: unset;
+    /*background-color: red;*/
+    color: var(--primary-color);
+}
+
+.rbc-btn-group > button:nth-child(1) {
+    color: var(--primary-color);
+}
+
+.rbc-btn-group > button:nth-child(2) {
+    color: var(--primary-color);
+}
+
+.rbc-btn-group > button:nth-child(3) {
+    color: var(--primary-color);
+}
+
+.rbc-btn-group > button:nth-child(4) {
+    color: var(--primary-color);
+}
+
+.rbc-month-row, .rbc-week-view{
+    border: 2px solid var(--primary-color);;
+    background-color: var(--secondary-color);
+}
+
+.rbc-off-range {
+    background-color: var(--secondary-color);
+}
+
+.rbc-month-view .rbc-off-range-bg {
+    background-color: var(--secondary-color);
+}
+
+.rbc-week-row {
+    border: 2px solid var(--primary-color);;
+    background-color: var(--secondary-color);
+}
